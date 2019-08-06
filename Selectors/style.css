@@ -1,0 +1,28 @@
+/* Universal Selector */
+
+*{
+    color :orange;
+}
+
+/* tagNames */
+
+h2{
+    color : royalblue;
+}
+
+/* Class Name */
+
+.firstpara {
+    color : brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/* id Selector */
+
+#para{
+    color: darkgreen;
+    background: aqua;
+}
+
+
