@@ -1,0 +1,36 @@
+
+/* we can pass any attribute id ,src ,href , value also */
+h1[id] {
+    color: tomato;
+}
+
+h2[class="head"] {
+    color: teal;
+}
+
+/* p[class="head"] {
+    color: darkgoldenrod;
+} */
+
+/* ~ START MATCHING FOR HEAD SO IT WILL APPLY ON BOTH THE PARA HAVING CLASS PARA */
+p[class~="head"] {
+    color: darkgoldenrod;
+}
+
+a[href] {
+    text-decoration: none;
+    color: steelblue;
+}
+
+/* Match ending Character */
+
+a[href$="pdf"] {
+    text-decoration: none;
+    color: springgreen;
+}
+
+/* Matching Ending Characters */
+
+a[href^="https"] {
+    color: gold;
+}

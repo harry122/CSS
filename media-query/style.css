@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: green;
+    align-content: center;  
+    margin-bottom: 20px;
+}
+
+header h1{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.column p{
+    text-align: justify;
+}
+
+@media screen and (max-width:600px){   /* max-width is breakpoints */
+    .column {
+        width: 100%;
+    }
+}
+
+@media all and (min-width:400px) and (max-width:800px) {
+    header {
+        background-color: blueviolet;
+    }
+}

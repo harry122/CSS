@@ -1,0 +1,28 @@
+*{
+     box-sizing: border-box; /*content-box , padding-box , and border-box, padding and margin is included in our div only. */
+}
+
+div{
+    width: 500px;
+    height: 400px;
+}
+
+
+.div1{
+    background: aquamarine;
+    /* padding: 20px 10px 15px 5px; top right left bottom*/
+    /* padding: 10px 20px 15px;  top right-left bottom*/
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+.div2{
+
+    background-color: tomato;
+    margin: 20px;           /* the higher one will be applied they don't get added*/
+}
+
+.div3{
+    background-color: indianred;
+}

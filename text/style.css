@@ -1,0 +1,33 @@
+*{
+    font-family: 'sans-serif';
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.para{
+    font-size: 18px;
+    font-style: italic;
+    /* First letter of parargraph a little bolder */
+    font-variant: small-caps;  
+    line-height: 30px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    text-indent: 30px;
+    text-decoration: none;  /* underline, line-through ,*/
+}
+
+.mypara{
+    text-align: justify; /*Align equally from both side. issue: it give extra spaces in small screen to make it align from both the sides.*/
+}
+
+h3{
+    /* border: 1px dashed bisque; solid, dashed,dotted */
+    border-top: 3px solid black;
+    border-bottom: 3px solid rebeccapurple;
+    border-left: 3px solid goldenrod;
+    border-right: 3px solid grey;
+}
+

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 300px;
+    width: 600px;
+    background-color: blue;
+    margin: 100px auto;
+    transition: width 10s, height 20s, transform 2s;
+}
+
+div:hover {
+    transform: rotate(180deg);
+}

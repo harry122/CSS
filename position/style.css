@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/*
+    static (default)
+    fixed
+    absolute
+    relative
+    inherit
+     */
+
+#position{
+    width: 100%;
+    text-align: center;
+    background-color: honeydew;
+    position: relative; 
+}
+
+.pos{
+    border: 1px solid black ;
+    background : tomato;
+    width: 50%;
+    padding: 30px;
+    margin: 0 auto;
+
+}
+
+.box1{
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box2{
+    background-color: green;
+    position: relative;
+    top: 40px;
+    left: 0;
+}
+
+.box3{
+    background-color: gold;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.box4{
+    background-color: mediumseagreen;
+    position: relative;
+    left: 40px;
+}
+
+.dummy {
+    height: 800px;
+}

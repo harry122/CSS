@@ -1,0 +1,7 @@
+.main h1+p {
+    color: gold;
+}
+
+.main .inner+p {
+    color: red;
+}

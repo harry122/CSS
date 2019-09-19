@@ -1,0 +1,12 @@
+.bg{
+    background-color: aqua;
+}
+
+div{
+    background-image: url('../media/wallpaper.jpg');
+    background-position: center;   
+    background-repeat: no-repeat; /*repeat-x,y,round*/ 
+    background-position-x: left;
+    background-position-y: bottom;
+}
+/* background-image :styling purpose but ,img tag :image tag will be considered as content . */

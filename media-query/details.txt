@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Media-types</h1>
+    <p>Screen ,Print, projector, tv</p>
+
+    <h1>Media-Features</h1>
+    <p>height, min height,max-weight</p>
+
+    <h2>@media Media-types and (media-features)</h2>
+</body>
+</html>

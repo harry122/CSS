@@ -1,0 +1,33 @@
+/* 
+Specificity
+
+universal selector => 0
+
+typed selector => 10
+
+class selector => 100
+
+id selector => 100
+
+inline selector => 1000
+
+*/
+
+
+
+
+* {
+    color: tomato;
+}
+
+h1 {
+    color: aqua;
+}
+
+.head {
+    color : pink;
+}
+
+#myHead{
+    color : tan;
+}

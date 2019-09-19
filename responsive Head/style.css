@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+#container {
+    background-color: bisque;
+    margin: 5px;
+    position: relative;
+}
+
+
+ .header ul li a:link, .header ul li a:visited{               /*a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective. */
+   text-decoration: none;        /* Note: a:active MUST come after a:hover in the CSS definition in order to be effective.     */
+    cursor: pointer;
+    color: black;
+}
+
+.header ul li a:hover{
+    color: rgb(255, 3, 23);
+    text-decoration: underline;
+    /* background-color: lightgreen;  */
+    /* padding: 15px 20px; */
+    /* font-size: 18px; */
+    cursor: pointer;
+}
+
+.header{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(184, 3, 255);
+    padding: 0 15px;
+}
+
+.login {
+    float: right;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.toggle-nav {
+    display: none;
+}
+
+.toggle-nav .toggle {
+    text-decoration: none;
+    /* z-index: 1; */
+}
+
+@media only screen and (max-width: 800px) {
+    header ul li:not(:first-child) {display: none; }
+
+   .header{
+        position: relative;
+        width: 100%;
+    
+    }
+    .header ul.navbar.responsive  {
+        display: inline;
+    }
+    .header ul li.login{
+        display: none;
+    }
+    #container .toggle-nav{
+        position: absolute;
+        display: block;
+        right: 15px;
+        padding: 10px 5px;
+        cursor: pointer;
+        text-decoration: none;
+        top: 0;
+        transition: transform 2s;
+    }
+
+    #container .toggle-nav:hover {
+        transform: rotate(180deg);
+    }
+
+    header ul.navbar.responsive li {
+        width: 100%;
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid green;
+    }
+
+    /* .container .header ul:hover {
+        transition: width 2s, height 2s, transform 2s;
+
+  } */
+
+
+}
+
